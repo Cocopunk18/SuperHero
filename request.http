@@ -1,0 +1,13 @@
+###
+POST http://localhost:5000/api/v1/superheros HTTP/1.1
+Content-Type: application/json
+
+{
+    "superhero": "Mujer maravilla",
+    "universe": "Marvel",
+    "superpowers": ["Fuerza", "Lasso de la verdad"],
+    "address":{
+        "city": "tribu amazonas",
+        "code_zip":"170002"
+    }
+}
